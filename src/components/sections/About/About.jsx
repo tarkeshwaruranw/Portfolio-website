@@ -1,4 +1,4 @@
-import Container from "../../../ui/container";
+import Container from "../../../ui/Container";
 import about from "../../../data/about";
 import SectionHeading from "../../../ui/SectionHeading";
 import AboutCard from "./AboutCard";

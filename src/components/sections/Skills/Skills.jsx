@@ -1,4 +1,4 @@
-import Container from "../../../ui/container";
+import Container from "../../../ui/Container";
 import SectionHeading from "../../../ui/SectionHeading";
 import skills from "../../../data/skills";
 import SkillCard from "./SkillCard";

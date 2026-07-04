@@ -1,4 +1,4 @@
-import Container from "../../../ui/container";
+import Container from "../../../ui/Container";
 import SectionHeading from "../../../ui/SectionHeading";
 import FeaturedProject from "./FeaturedProject";
 import projects from "../../../data/projects";
