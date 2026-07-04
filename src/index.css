@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@theme {
+  --color-background: #020617;
+  --color-surface: #0f172a;
+  --color-card: #1e293b;
+  --color-primary: #6366f1;
+  --color-secondary: #38bdf8;
+  --color-text: #f8fafc;
+  --color-muted: #94a3b8;
+}
+
+:root {
+  --grid-size: 50px;
+}
+
+html {
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: Inter, sans-serif;
+  min-height: 100vh;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: white;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px
+    );
+
+  background-size: var(--grid-size) var(--grid-size);
+}
