@@ -40,7 +40,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Ecommerce Websipt",
+    title: "Ecommerce Website",
     image: `${ecommerce}`,
     description: "",
     highlights: [
