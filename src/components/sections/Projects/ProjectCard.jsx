@@ -25,8 +25,26 @@ const ProjectCard = ({ projects }) => {
             <div className="flex flex-col gap-2 mt-2 py-2">
               <h2 className="text-lg font-bold text-center">{project.title}</h2>
               <div className="flex gap-2 text-xs">
-                <Button variant="outline" className="flex flex-nowrap gap-2"><FiExternalLink /><span>Live Demo</span></Button>
-                <Button variant="outline" className="flex flex-nowrap gap-2"><FaGithub /><span>Github</span></Button>
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" className="flex flex-nowrap gap-2">
+                    <FiExternalLink />
+                    <span>Live Demo</span>
+                  </Button>
+                </a>
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" className="flex flex-nowrap gap-2">
+                    <FaGithub />
+                    <span>Github</span>
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import taskManager from "/src/assets/images/task-manager-app-image.jpg"
-import image1 from "/src/assets/images/image.png"
-import image2 from "/src/assets/images/desktop-design.jpg"
+import weatherApp from "/src/assets/images/weather-app-preview.png"
+import ecommerce from "/src/assets/images/ecommerce-app-preview.png"
 
 const projects = [
   {
@@ -24,35 +24,34 @@ const projects = [
   {
     id: 2,
     title: "Weather App",
-    image: `${image2}`,
+    image: `${weatherApp}`,
     description: "",
     highlights: [
-      "Local Storage",
+      "Fetching APIs",
       "Responsive Design"
     ],
     techStack: [
       "React",
       "Tailwind CSS"
     ],
-    github: "",
-    live: "",
+    github: "https://github.com/tarkeshwaruranw/Weather-App",
+    live: "https://weather-app-tarkeshwar.vercel.app/",
     featured: false
   },
   {
     id: 3,
-    title: "project 3",
-    image: `${image1}`,
+    title: "Ecommerce Websipt",
+    image: `${ecommerce}`,
     description: "",
     highlights: [
-      "CRUD operations",
-      "Local Storage",
-      "Responsive Design"
+      "Responsive Design",
+      "Frontend"
     ],
     techStack: [
       "React",
       "Tailwind CSS"
     ],
-    github: "",
+    github: "https://github.com/tarkeshwaruranw/Ecommerce-App-React",
     live: "",
     featured: false
   },
